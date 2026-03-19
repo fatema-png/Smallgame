@@ -1,0 +1,28 @@
+# Normalize line endings for text files
+* text=auto
+
+# Unity-specific files should always use LF
+*.cs text eol=lf
+*.shader text eol=lf
+*.cginc text eol=lf
+*.compute text eol=lf
+
+# Prevent Git from messing with binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.psd binary
+*.fbx binary
+*.prefab binary
+*.unity binary
+*.anim binary
+*.controller binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+
+# Keep Git from trying to diff large binary assets
+*.dll binary
+*.exe binary
+*.zip binary
+*.unitypackage binary
